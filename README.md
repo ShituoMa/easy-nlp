@@ -1,33 +1,35 @@
-# 项目名称
+# 最基础的NLP入门读物
+
+伴随着大语言模型的火热，自然语言处理这个学科领域彻底被带起来了。很多同学想要学习自然语言处理，但又没有自然语言处理的专业背景，比如文科生。
+有很多同学说，有了大模型，那么2022年以前的自然语言处理技术方法就已经都成为历史了，可以不用学了。真的是这样吗？我认为不对。因此，我想通过一个最极简的科普专栏，讲述自然语言处理这门学科从上个世纪到现在的变化。涵盖了基于规则、基于机器学习、基于深度学习、基于预训练模型和基于大语言模型五种范式的简单案例，但每一章都借助了当下最热的deepseek-r1模型帮助创建案例来理解。
 
 *这里写项目的各类介绍信息、背景、动机等内容*
 
 ## 项目受众
 
+想要学习自然语言处理但对它完全没了解的同学，新手，非计算机科班背景的同学。
+
+基础能力要求不高，我尽可能通俗一些地在写，会用deepseek就行。代码不要求能够全部跑通，但deepseek是要会用的。
+
 *注：这里写你的项目所面向的受众，本项目能给他们带来什么，对他们的基础能力要求有哪些*
 
 ## 目录
 *这里写你的项目目录，已完成的部分用添加上跳转链接*
-- [第1章](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter1/chapter1.md)
-- [第2章](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter2)
-  - [2.1 我是2.1的标题](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter2/chapter2_1.md)
-  - [2.2 我是2.2的标题](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter2/chapter2_2.md)
-- [第3章](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter3)
-  - [3.1 我是3.1的标题](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter3/chapter3_1)
-    - [3.1.1 我是3.1.1的标题](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter3/chapter3_1/chapter3_1_1.md)
-    - [3.1.2 我是3.1.2的标题](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter3/chapter3_1/chapter3_1_2.md)
-  - 3.2 我是3.2的标题
-- 第4章
-  - 4.1 我是4.1的标题
-  - 4.2 我是4.2的标题
+- [第1章 语言、语法和语义](./docs/ch1/ch1.md)
+- [第2章 语言模型](./docs/ch2/ch2.md)
+- [第3章 传统NLP任务](./docs/ch3/ch3.md)
+- [第4章 认知语言智能](./docs/ch4/ch4.md)
+- [第5章 大语言模型](./docs/ch5/ch5.md)
+- [第6章 自然语言处理的应用](./docs/ch6/ch6.md)
+
 
 ## 贡献者名单
 
 | 姓名 | 职责 | 简介 |
 | :----| :---- | :---- |
-| 小明 | 项目负责人 | 一个理想主义者 |
-| 小红 | 第1章贡献者 | 小明的朋友 |
-| 小强 | 第2章贡献者 | 小明的朋友 |
+| 若冰（马世拓） | 项目负责人 | 中国科学院大学网络空间安全学院，中国科学院信息工程研究所，研究方向为网络空间安全 |
+
+有来一起共建的小伙伴可以联系我。我后续还想再整更hands-on的实操版（代码难度plus），同时还在整理一个巨型的前沿学术版（学术难度max）。
 
 *注：表头可自定义，但必须在名单中标明项目负责人*
 
